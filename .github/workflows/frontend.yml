@@ -25,6 +25,9 @@ jobs:
       - name: Install Packages
         run: npm install
 
+      - name: List Files
+        run: ls -R
+
       - name: Build React App
         run: npm run build
 
