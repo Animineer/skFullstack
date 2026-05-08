@@ -1,0 +1,30 @@
+name: Backend Build
+
+on:
+  push:
+    paths:
+      - 'skEnterprices-backend-main/**'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: skEnterprices-backend-main
+
+    steps:
+      - name: Get Code
+        uses: actions/checkout@v4
+
+      - name: Install Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 21
+
+      - name: Build Spring Boot
+        run: mvn clean install
+
+
+
