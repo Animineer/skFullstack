@@ -37,7 +37,7 @@ import java.util.Map;
  */
 @RestController
 @RequestMapping("/api/seller")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://sk-fullstack.vercel.app")
 @RequiredArgsConstructor
 public class SellerController {
 

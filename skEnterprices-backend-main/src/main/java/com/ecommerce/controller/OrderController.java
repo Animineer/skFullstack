@@ -29,7 +29,7 @@ import org.springframework.web.bind.annotation.*;
  */
 @RestController
 @RequestMapping("/api/orders")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://sk-fullstack.vercel.app")
 @RequiredArgsConstructor
 public class OrderController {
 
