@@ -22,7 +22,7 @@ import java.util.Map;
  */
 @RestController
 @RequestMapping("/api/upload")
-@CrossOrigin(origins = "https://sk-fullstack.vercel.app")
+// @CrossOrigin(origins = "https://sk-fullstack.vercel.app")
 @RequiredArgsConstructor
 public class CloudinaryController {
 

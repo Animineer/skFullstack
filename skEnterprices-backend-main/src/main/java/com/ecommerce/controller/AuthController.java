@@ -12,7 +12,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/auth")
-@CrossOrigin(origins = "https://sk-fullstack.vercel.app")
+// @CrossOrigin(origins = "https://sk-fullstack.vercel.app")
 @RequiredArgsConstructor
 public class AuthController {
 

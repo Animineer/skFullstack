@@ -35,7 +35,7 @@ import java.util.Map;
  */
 @RestController
 @RequestMapping("/api/admin")
-@CrossOrigin(origins = "https://sk-fullstack.vercel.app")
+// @CrossOrigin(origins = "https://sk-fullstack.vercel.app")
 @RequiredArgsConstructor
 public class AdminController {
 

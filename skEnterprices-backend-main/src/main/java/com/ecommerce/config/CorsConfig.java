@@ -61,7 +61,7 @@ public class CorsConfig {
         // Allow sending credentials (cookies, auth headers) with requests
         config.setAllowCredentials(true);
         // Allow requests from React frontend running on localhost:3000
-        config.addAllowedOrigin("https://sk-fullstack.vercel.app");
+        config.addAllowedOrigin("https://sk-fullstack-dli3h0r2n-animineers-projects.vercel.app");
         // Allow all headers in requests (Content-Type, Authorization, etc.)
         config.addAllowedHeader("*");
         // Allow all HTTP methods (GET, POST, PUT, DELETE, etc.)
