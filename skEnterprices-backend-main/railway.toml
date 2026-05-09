@@ -1,0 +1,8 @@
+[build]
+builder = "dockerfile"
+
+[deploy]
+startCommand = "java -jar target/ecommerce-backend-1.0.0.jar"
+healthcheckPath = "/api/products"
+healthcheckTimeout = 300
+restartPolicyType = "ON_FAILURE"
