@@ -18,7 +18,7 @@ import axios from 'axios'
 
 // Base URL for all API requests
 // Points to Spring Boot backend running on port 8080
-const API_URL = 'http://localhost:8080/api'
+const API_URL = `${import.meta.env.VITE_API_URL}/api`;
 
 /**
  * Axios Instance - Pre-configured HTTP client
